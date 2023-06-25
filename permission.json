@@ -1,0 +1,19 @@
+{
+    "admin": {
+        "permittedRoutes": ["/","/doctor", "/user"],
+        "permittedMethod": ["GET","POST","PATCH","DELETE"]
+
+    },
+    "user": {
+        "permittedRoutes": ["/"],
+        "permittedMethod": ["GET"]
+    },
+    "administrator":{
+        "permittedRoutes": ["/","/roleUpdate"],
+        "permittedMethod": ["GET","POST","PATCH","DELETE","PUT"]
+    },
+    "doctor":{
+        "permittedRoutes": ["/"],
+        "permittedMethod":["GET","POST"]
+    }
+}
